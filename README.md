@@ -99,337 +99,407 @@
 
 
 ## **Java Core (Java 8+)**   
-<a name="java-core"></a>
 
-1. ### **Java 8+ Features: Lambda, Streams, Optional, Records, Sealed Classes**  
 <a name="java-features"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+1. ### **Java 8+ Features: Lambda, Streams, Optional, Records, Sealed Classes**  
 
-2. ### **Functional Interfaces and Method References**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="functional-interfaces"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+2. ### **Functional Interfaces and Method References**  
 
-3. ### **Stream API and Collector Operations**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="stream-api"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+3. ### **Stream API and Collector Operations**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="collections-concurrency"></a>  
 4. ### **Collections Framework and Concurrency Utilities**  
-<a name="collections-framework"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-5. ### **JVM Internals: Memory Model, Garbage Collection, Class Loading**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="jvm-internals"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+5. ### **JVM Internals: Memory Model, Garbage Collection, Class Loading**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="generics-annotations"></a>  
 6. ### **Generics, Annotations, and Reflection**  
-<a name="generics-annotations-reflection"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-7. ### **Exception Handling and Best Practices**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="exception-handling"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+7. ### **Exception Handling and Best Practices**  
 
-8. ### **Immutability and Performance Tuning**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="immutability-performance"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+8. ### **Immutability and Performance Tuning**  
+
+	**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **Object-Oriented Programming (OOP)**  
-<a name="oop"></a>
 
-9. ### **OOP Principles: Abstraction, Encapsulation, Inheritance, Polymorphism**  
 <a name="oop-principles"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+9. ### **OOP Principles: Abstraction, Encapsulation, Inheritance, Polymorphism**  
 
-10. ### **SOLID Principles**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="solid-principles"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+10. ### **SOLID Principles**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="composition-inheritance"></a>  
 11. ### **Composition vs Inheritance**  
-<a name="composition-vs-inheritance"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="ddd-entities-vo-aggregates"></a>  
 12. ### **Domain-Driven Design (DDD): Entities, Value Objects, Aggregates**  
-<a name="ddd"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **Spring JPA (Hibernate)**  
-<a name="spring-jpa"></a>
-
-13. ### **JPA Entity Mapping, Lifecycle, and Annotations**  
 <a name="jpa-entity-mapping"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+13. ### **JPA Entity Mapping, Lifecycle, and Annotations**  
 
-14. ### **Entity Relationships: OneToMany, ManyToOne, ManyToMany, OneToOne**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="entity-relationships"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+14. ### **Entity Relationships: OneToMany, ManyToOne, ManyToMany, OneToOne**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="jpql-criteria-api"></a>  
 15. ### **JPQL, Native Queries, and Criteria API**  
-<a name="jpql-native-queries"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-16. ### **Transaction Management and Propagation**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="transaction-management"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+16. ### **Transaction Management and Propagation**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="lazy-eager-loading"></a>  
 17. ### **Lazy vs Eager Loading, N+1 Problem, Fetch Joins**  
-<a name="lazy-vs-eager"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="auditing-locking"></a>  
 18. ### **Auditing, Soft Deletes, Optimistic/Pessimistic Locking**  
-<a name="auditing-soft-deletes"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **Spring Security**  
-<a name="spring-security"></a>
-
+<a name="spring-security-architecture"></a>  
 19. ### **Spring Security Architecture and Filter Chain**  
-<a name="security-architecture"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-20. ### **Authentication, Authorization, and Roles**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="authentication-authorization"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+20. ### **Authentication, Authorization, and Roles**  
 
-21. ### **JWT-Based Stateless Authentication**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="jwt-authentication"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+21. ### **JWT-Based Stateless Authentication**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="method-security-rbac"></a>  
 22. ### **Method-Level Security, RBAC, and Custom Annotations**  
-<a name="method-level-security"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-23. ### **OAuth2 and OpenID Connect Integration**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="oauth2-openid"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+23. ### **OAuth2 and OpenID Connect Integration**  
 
-24. ### **CSRF Protection, CORS, and Session Management**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="csrf-cors-session"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+24. ### **CSRF Protection, CORS, and Session Management**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **Spring Boot**  
-<a name="spring-boot"></a>
-
-25. ### **Auto-Configuration and Conditional Beans**  
 <a name="auto-configuration"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+25. ### **Auto-Configuration and Conditional Beans**  
 
-26. ### **Application Configuration (YAML/Properties) and Profile Management**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="app-configuration"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+26. ### **Application Configuration (YAML/Properties) and Profile Management**  
 
-27. ### **Spring Boot Actuator for Health Checks and Metrics**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="spring-boot-actuator"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+27. ### **Spring Boot Actuator for Health Checks and Metrics**  
 
-28. ### **Externalized Configuration and Secret Management**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="externalized-configuration"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+28. ### **Externalized Configuration and Secret Management**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="embedded-servers-deployment"></a>  
 29. ### **Embedded Tomcat/Jetty/Undertow and Deployment Packaging**  
-<a name="embedded-servers"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+
+	**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **SQL Database**  
-<a name="sql-database"></a>
-
-30. ### **SQL Syntax and Query Building Basics**  
 <a name="sql-basics"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+30. ### **SQL Syntax and Query Building Basics**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="sql-joins-indexing"></a>  
 31. ### **Joins, Indexing, Query Planning and Optimization**  
-<a name="joins-indexing"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="acid-isolation-levels"></a>  
 32. ### **ACID Properties and Isolation Levels**  
-<a name="acid-isolation"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="database-migrations"></a>  
 33. ### **Database Migrations with Liquibase or Flyway**  
-<a name="db-migrations"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="data-modeling-normalization"></a>  
 34. ### **Data Modeling and Normalization**  
-<a name="data-modeling"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **RESTful API Design**  
-<a name="restful-api"></a>
-
-35. ### **REST Principles and Resource Modeling**  
 <a name="rest-principles"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+35. ### **REST Principles and Resource Modeling**  
 
-36. ### **HTTP Methods, Status Codes, Headers, and Idempotency**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="http-methods-status-codes"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+36. ### **HTTP Methods, Status Codes, Headers, and Idempotency**  
 
-37. ### **Exception Handling and Validation**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="exception-handling-validation"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+37. ### **Exception Handling and Validation**  
 
-38. ### **API Versioning and HATEOAS**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="api-versioning-hateoas"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+38. ### **API Versioning and HATEOAS**  
 
-39. ### **Pagination, Sorting, and Filtering**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="pagination-sorting-filtering"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+39. ### **Pagination, Sorting, and Filtering**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **Microservices**  
-<a name="microservices"></a>
-
-40. ### **Microservice Architecture and Decomposition Strategies**  
 <a name="microservice-architecture"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+40. ### **Microservice Architecture and Decomposition Strategies**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="service-discovery-api-gateway"></a>  
 41. ### **Service Discovery and API Gateway**  
-<a name="service-discovery"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="sync-vs-async-communication"></a>  
 42. ### **Synchronous (REST, gRPC) vs Asynchronous Communication**  
-<a name="sync-async-communication"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-43. ### **Event-Driven Architecture and Message Brokers**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="event-driven-architecture"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+43. ### **Event-Driven Architecture and Message Brokers**  
 
-44. ### **Kafka Fundamentals: Producers, Consumers, Brokers, Partitions, Topics**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="kafka-fundamentals"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+44. ### **Kafka Fundamentals: Producers, Consumers, Brokers, Partitions, Topics**  
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="kafka-delivery-stream-processing"></a>  
 45. ### **Kafka Delivery Semantics and Stream Processing**  
-<a name="kafka-delivery"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="kafka-schema-spring-integration"></a>  
 46. ### **Kafka Schema Registry, Avro, and Spring Integration**  
-<a name="kafka-schema-avro"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="circuit-breakers-resilience"></a>  
 47. ### **Circuit Breakers, Retries, and Rate Limiting (Resilience4j)**  
-<a name="circuit-breakers"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="spring-cloud-config-logging"></a>  
 48. ### **Spring Cloud Config, Centralized Logging**  
-<a name="spring-cloud-config"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **CI/CD & Docker**  
-<a name="cicd-docker"></a>
-
+<a name="ci-cd-pipelines"></a>  
 49. ### **CI/CD Pipelines: Jenkins, GitHub Actions, GitLab CI**  
-<a name="cicd-pipelines"></a>  
-**[⬆ Back to Top](#table-of-contents)**
 
-50. ### **Docker Fundamentals: Images, Containers, Dockerfile**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="docker-fundamentals"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+50. ### **Docker Fundamentals: Images, Containers, Dockerfile**  
 
-51. ### **Docker Compose and Multi-Container Apps**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="docker-compose"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+51. ### **Docker Compose and Multi-Container Apps**  
 
-52. ### **Deployment Strategies: Blue/Green, Rolling, Canary**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="deployment-strategies"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+52. ### **Deployment Strategies: Blue/Green, Rolling, Canary**  
 
-53. ### **Artifact Versioning and Environment Promotion**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="artifact-versioning"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+53. ### **Artifact Versioning and Environment Promotion**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## **Testing**  
-<a name="testing"></a>
-
-54. ### **Unit Testing with JUnit and Mockito**  
 <a name="unit-testing"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+54. ### **Unit Testing with JUnit, Mockito**  
 
-55. ### **Integration Testing and Spring Boot Test**  
+	**[⬆ Back to Top](#table-of-contents)**
+
 <a name="integration-testing"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+55. ### **Integration Testing with Spring Boot**  
 
-56. ### **Contract Testing and Consumer-Driven Contracts**  
-<a name="contract-testing"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-57. ### **Performance Testing and Load Testing Tools**  
-<a name="performance-testing"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="test-slicing-testcontainers"></a>  
+56. ### **Test Slicing and Testcontainers**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="contract-testing-ci"></a>  
+57. ### **Contract Testing, CI Testing Strategies**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="static-analysis"></a>  
+58. ### **Static Analysis: SonarQube, JaCoCo, SpotBugs**  
+
+	**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **Software Architecture**  
-<a name="software-architecture"></a>
+<a name="scalability-availability-fault-tolerance"></a>  
+59. ### **Scalability, Availability, Fault Tolerance**  
 
-58. ### **Design Patterns: Creational, Structural, Behavioral**  
-<a name="design-patterns"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-59. ### **Event-Driven Architecture and CQRS**  
-<a name="event-driven-cqrs"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="cap-theorem-consistency"></a>  
+60. ### **CAP Theorem and Consistency Models**  
 
-60. ### **Domain-Driven Design (DDD) Tactical and Strategic Patterns**  
-<a name="ddd-tactical-strategic"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-61. ### **Scalability, Availability, and CAP Theorem**  
-<a name="scalability-availability"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="caching-in-memory-redis-caffeine"></a>  
+61. ### **Caching: In-memory, Redis, Caffeine**  
 
-62. ### **API Gateway and Backend for Frontend (BFF)**  
-<a name="api-gateway-bff"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-63. ### **Monolith vs Microservices vs Serverless**  
-<a name="monolith-vs-microservices"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="redis-data-types-ttl-pubsub"></a>  
+62. ### **Redis: Data Types, TTL, Pub/Sub, Locks, Rate Limiting**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="design-patterns-cqrs-saga-event-sourcing"></a>  
+63. ### **Design Patterns: CQRS, Saga, Event Sourcing**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="load-balancing-partitioning-replication"></a>  
+64. ### **Load Balancing, Partitioning, Replication**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="api-security-token-management"></a>  
+65. ### **API Security and Token Management**  
+
+	**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **Clean Code & Best Practices**  
-<a name="clean-code"></a>
+<a name="clean-c<a name="clean-code-principles-refactoring"></a>  
+66. ### **Clean Code Principles and Refactoring Techniques**  
 
-64. ### **Code Readability and Naming Conventions**  
-<a name="code-readability"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-65. ### **Refactoring Techniques and Code Smells**  
-<a name="refactoring-code-smells"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="creational-patterns"></a>  
+67. ### **Creational Patterns: Singleton, Factory, Builder, Prototype**  
 
-66. ### **Unit Test Coverage and Test-Driven Development (TDD)**  
-<a name="unit-test-tdd"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-67. ### **Logging, Monitoring, and Observability**  
-<a name="logging-monitoring"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="structural-patterns"></a>  
+68. ### **Structural Patterns: Adapter, Decorator, Proxy, Facade**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="behavioral-patterns"></a>  
+69. ### **Behavioral Patterns: Strategy, Observer, Chain of Responsibility**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="clean-architecture-hexagonal-onion"></a>  
+70. ### **Clean Architecture, Hexagonal, Onion**  
+
+	**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **Agile & Scrum**  
-<a name="agile-scrum"></a>
+<a name="agile-manifesto-scrum-roles"></a>  
+71. ### **Agile Manifesto and Scrum Roles**  
 
-68. ### **Agile Principles and Scrum Framework**  
-<a name="agile-principles"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-69. ### **Sprint Planning, Stand-ups, and Retrospectives**  
-<a name="sprint-planning"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="scrum-ceremonies-user-stories"></a>  
+72. ### **Scrum Ceremonies and User Stories**  
 
-70. ### **User Stories, Epics, and Story Points Estimation**  
-<a name="user-stories"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+	**[⬆ Back to Top](#table-of-contents)**
 
-71. ### **Continuous Improvement and Team Collaboration**  
-<a name="continuous-improvement"></a>  
-**[⬆ Back to Top](#table-of-contents)**
+<a name="story-points-velocity-metrics"></a>  
+73. ### **Story Points, Velocity, and Metrics**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
+<a name="agile-tools-jira-trello-clickup"></a>  
+74. ### **Agile Tools: Jira, Trello, ClickUp**  
+
+	**[⬆ Back to Top](#table-of-contents)**
+
 
