@@ -3,104 +3,104 @@
 ### Table of Contents
 
 <details open>
-<summary>Hide/Show Table of Contents</summary>
+<summary>Show/Hide Table of Contents</summary>
 
-| No. | Section & Topics                                                                                          |
-| ----|----------------------------------------------------------------------------------------------------------|
-|      | **Java Core (Java 8+)**                                                                                   |
-| 1    | [Java 8–17 features: Lambda, Streams, Optional, Records, Sealed Classes](#java-features)                  |
-| 2    | [Functional Interfaces and Method References](#functional-interfaces)                                     |
-| 3    | [Stream API and Collector Operations](#stream-api)                                                       |
-| 4    | [Collections Framework and Concurrency Utilities](#collections-framework)                                 |
-| 5    | [JVM Internals: Memory Model, Garbage Collection, Class Loading](#jvm-internals)                          |
-| 6    | [Generics, Annotations, and Reflection](#generics-annotations-reflection)                                |
-| 7    | [Exception Handling and Best Practices](#exception-handling)                                             |
-| 8    | [Immutability and Performance Tuning](#immutability-performance)                                         |
-|      | **Object-Oriented Programming (OOP)**                                                                     |
-| 9    | [OOP Principles: Abstraction, Encapsulation, Inheritance, Polymorphism](#oop-principles)                  |
-| 10   | [SOLID Principles](#solid-principles)                                                                     |
-| 11   | [Composition vs Inheritance](#composition-vs-inheritance)                                                 |
-| 12   | [Domain-Driven Design (DDD): Entities, Value Objects, Aggregates](#ddd)                                  |
-|      | **Spring JPA (Hibernate)**                                                                                |
-| 13   | [JPA Entity Mapping, Lifecycle, and Annotations](#jpa-entity-mapping)                                    |
-| 14   | [Entity Relationships: OneToMany, ManyToOne, ManyToMany, OneToOne](#entity-relationships)                 |
-| 15   | [JPQL, Native Queries, and Criteria API](#jpql-native-queries)                                           |
-| 16   | [Transaction Management and Propagation](#transaction-management)                                        |
-| 17   | [Lazy vs Eager Loading, N+1 Problem, Fetch Joins](#lazy-vs-eager)                                        |
-| 18   | [Auditing, Soft Deletes, Optimistic/Pessimistic Locking](#auditing-soft-deletes)                          |
-|      | **Spring Security**                                                                                        |
-| 19   | [Spring Security Architecture and Filter Chain](#security-architecture)                                  |
-| 20   | [Authentication, Authorization, and Roles](#auth-authorization)                                         |
-| 21   | [JWT-Based Stateless Authentication](#jwt-authentication)                                               |
-| 22   | [Method-Level Security, RBAC, and Custom Annotations](#method-security)                                  |
-| 23   | [OAuth2 and OpenID Connect Integration](#oauth2-openid)                                                 |
-| 24   | [CSRF Protection, CORS, and Session Management](#csrf-cors-session)                                     |
-|      | **Spring Boot**                                                                                            |
-| 25   | [Auto-Configuration and Conditional Beans](#auto-configuration)                                         |
-| 26   | [Application Configuration (YAML/Properties) and Profile Management](#app-configuration)                 |
-| 27   | [Spring Boot Actuator for Health Checks and Metrics](#actuator)                                         |
-| 28   | [Externalized Configuration and Secret Management](#external-config)                                    |
-| 29   | [Embedded Tomcat/Jetty/Undertow and Deployment Packaging](#embedded-containers)                          |
-|      | **SQL Database**                                                                                           |
-| 30   | [SQL Syntax and Query Building Basics](#sql-basics)                                                     |
-| 31   | [Joins, Indexing, Query Planning, and Optimization](#joins-indexing)                                    |
-| 32   | [ACID Properties and Isolation Levels](#acid-isolation)                                                |
-| 33   | [Database Migrations with Liquibase or Flyway](#db-migrations)                                          |
-| 34   | [Data Modeling and Normalization](#data-modeling)                                                      |
-|      | **RESTful API Design**                                                                                     |
-| 35   | [REST Principles and Resource Modeling](#rest-principles)                                              |
-| 36   | [HTTP Methods, Status Codes, Headers, and Idempotency](#http-basics)                                    |
-| 37   | [Exception Handling and Validation](#api-exception-handling)                                           |
-| 38   | [API Versioning and HATEOAS](#api-versioning-hateoas)                                                  |
-| 39   | [Pagination, Sorting, and Filtering](#pagination-sorting)                                              |
-|      | **Microservices**                                                                                          |
-| 40   | [Microservice Architecture and Decomposition Strategies](#microservice-architecture)                   |
-| 41   | [Service Discovery and API Gateway](#service-discovery)                                                |
-| 42   | [Synchronous (REST, gRPC) vs Asynchronous Communication](#sync-vs-async)                               |
-| 43   | [Event-Driven Architecture and Message Brokers](#event-driven)                                        |
-| 44   | [Kafka Fundamentals: Producers, Consumers, Brokers, Partitions, Topics](#kafka-fundamentals)           |
-| 45   | [Kafka Delivery Semantics and Stream Processing](#kafka-delivery)                                     |
-| 46   | [Kafka Schema Registry, Avro, and Spring Integration](#kafka-schema-avro)                              |
-| 47   | [Circuit Breakers, Retries, and Rate Limiting (Resilience4j)](#resilience4j)                           |
-| 48   | [Spring Cloud Config and Centralized Logging](#spring-cloud-config)                                   |
-|      | **CI/CD & Docker**                                                                                         |
-| 49   | [CI/CD Pipelines: Jenkins, GitHub Actions, GitLab CI](#ci-cd-pipelines)                               |
-| 50   | [Docker Fundamentals: Images, Containers, Dockerfile](#docker-fundamentals)                            |
-| 51   | [Docker Compose and Multi-Container Apps](#docker-compose)                                            |
-| 52   | [Deployment Strategies: Blue/Green, Rolling, Canary](#deployment-strategies)                          |
-| 53   | [Artifact Versioning and Environment Promotion](#artifact-versioning)                                 |
-|      | **Testing & Quality Assurance**                                                                            |
-| 54   | [Unit Testing with JUnit and Mockito](#unit-testing)                                                  |
-| 55   | [Integration Testing with Spring Boot](#integration-testing)                                         |
-| 56   | [Test Slicing and Testcontainers](#test-slicing)                                                     |
-| 57   | [Contract Testing and CI Testing Strategies](#contract-testing)                                       |
-| 58   | [Static Analysis: SonarQube, JaCoCo, SpotBugs](#static-analysis)                                      |
-|      | **Architecture & System Design**                                                                           |
-| 59   | [Scalability, Availability, Fault Tolerance](#scalability-availability)                              |
-| 60   | [CAP Theorem and Consistency Models](#cap-theorem)                                                   |
-| 61   | [Caching: In-Memory, Redis, Caffeine](#caching)                                                     |
-| 62   | [Redis: Data Types, TTL, Pub/Sub, Locks, Rate Limiting](#redis)                                      |
-| 63   | [Design Patterns: CQRS, Saga, Event Sourcing](#design-patterns)                                      |
-| 64   | [Load Balancing, Partitioning, Replication](#load-balancing)                                        |
-| 65   | [API Security and Token Management](#api-security)                                                  |
-|      | **Clean Code & Design Patterns**                                                                            |
-| 66   | [Clean Code Principles and Refactoring Techniques](#clean-code)                                     |
-| 67   | [Creational Patterns: Singleton, Factory, Builder, Prototype](#creational-patterns)                  |
-| 68   | [Structural Patterns: Adapter, Decorator, Proxy, Facade](#structural-patterns)                       |
-| 69   | [Behavioral Patterns: Strategy, Observer, Chain of Responsibility](#behavioral-patterns)             |
-| 70   | [Clean Architecture, Hexagonal, Onion](#clean-architecture)                                         |
-|      | **Agile & Scrum**                                                                                           |
-| 71   | [Agile Manifesto and Scrum Roles](#agile-manifesto)                                                 |
-| 72   | [Scrum Ceremonies and User Stories](#scrum-ceremonies)                                              |
-| 73   | [Story Points, Velocity, and Metrics](#story-points)                                                |
-| 74   | [Agile Tools: Jira, Trello, ClickUp](#agile-tools)                                                  |
+| No. | Section & Topics                                                                                     |
+| ----|-----------------------------------------------------------------------------------------------------|
+|      | **Java Core (Java 8+)**                                                                              |
+| 1    | [Java 8–17 Features: Lambda, Streams, Optional, Records, Sealed Classes](#java-features)             |
+| 2    | [Functional Interfaces and Method References](#functional-interfaces)                                |
+| 3    | [Stream API and Collector Operations](#stream-api)                                                  |
+| 4    | [Collections Framework and Concurrency Utilities](#collections-framework)                            |
+| 5    | [JVM Internals: Memory Model, Garbage Collection, Class Loading](#jvm-internals)                     |
+| 6    | [Generics, Annotations, and Reflection](#generics-annotations-reflection)                           |
+| 7    | [Exception Handling and Best Practices](#exception-handling)                                        |
+| 8    | [Immutability and Performance Tuning](#immutability-performance)                                    |
+|      | **Object-Oriented Programming (OOP)**                                                               |
+| 9    | [OOP Principles: Abstraction, Encapsulation, Inheritance, Polymorphism](#oop-principles)             |
+| 10   | [SOLID Principles](#solid-principles)                                                               |
+| 11   | [Composition vs Inheritance](#composition-vs-inheritance)                                           |
+| 12   | [Domain-Driven Design (DDD): Entities, Value Objects, Aggregates](#ddd)                             |
+|      | **Spring JPA (Hibernate)**                                                                           |
+| 13   | [JPA Entity Mapping, Lifecycle, and Annotations](#jpa-entity-mapping)                               |
+| 14   | [Entity Relationships: OneToMany, ManyToOne, ManyToMany, OneToOne](#entity-relationships)            |
+| 15   | [JPQL, Native Queries, and Criteria API](#jpql-native-queries)                                      |
+| 16   | [Transaction Management and Propagation](#transaction-management)                                   |
+| 17   | [Lazy vs Eager Loading, N+1 Problem, Fetch Joins](#lazy-vs-eager)                                   |
+| 18   | [Auditing, Soft Deletes, Optimistic/Pessimistic Locking](#auditing-soft-deletes)                     |
+|      | **Spring Security**                                                                                   |
+| 19   | [Spring Security Architecture and Filter Chain](#security-architecture)                             |
+| 20   | [Authentication, Authorization, and Roles](#auth-authorization)                                    |
+| 21   | [JWT-Based Stateless Authentication](#jwt-authentication)                                          |
+| 22   | [Method-Level Security, RBAC, and Custom Annotations](#method-security)                             |
+| 23   | [OAuth2 and OpenID Connect Integration](#oauth2-openid)                                            |
+| 24   | [CSRF Protection, CORS, and Session Management](#csrf-cors-session)                                |
+|      | **Spring Boot**                                                                                      |
+| 25   | [Auto-Configuration and Conditional Beans](#auto-configuration)                                    |
+| 26   | [Application Configuration (YAML/Properties) and Profile Management](#app-configuration)            |
+| 27   | [Spring Boot Actuator for Health Checks and Metrics](#actuator)                                    |
+| 28   | [Externalized Configuration and Secret Management](#external-config)                               |
+| 29   | [Embedded Tomcat/Jetty/Undertow and Deployment Packaging](#embedded-containers)                     |
+|      | **SQL Database**                                                                                      |
+| 30   | [SQL Syntax and Query Building Basics](#sql-basics)                                                |
+| 31   | [Joins, Indexing, Query Planning, and Optimization](#joins-indexing)                               |
+| 32   | [ACID Properties and Isolation Levels](#acid-isolation)                                           |
+| 33   | [Database Migrations with Liquibase or Flyway](#db-migrations)                                     |
+| 34   | [Data Modeling and Normalization](#data-modeling)                                                 |
+|      | **RESTful API Design**                                                                                |
+| 35   | [REST Principles and Resource Modeling](#rest-principles)                                         |
+| 36   | [HTTP Methods, Status Codes, Headers, and Idempotency](#http-basics)                               |
+| 37   | [Exception Handling and Validation](#api-exception-handling)                                      |
+| 38   | [API Versioning and HATEOAS](#api-versioning-hateoas)                                             |
+| 39   | [Pagination, Sorting, and Filtering](#pagination-sorting)                                         |
+|      | **Microservices**                                                                                    |
+| 40   | [Microservice Architecture and Decomposition Strategies](#microservice-architecture)              |
+| 41   | [Service Discovery and API Gateway](#service-discovery)                                           |
+| 42   | [Synchronous (REST, gRPC) vs Asynchronous Communication](#sync-vs-async)                          |
+| 43   | [Event-Driven Architecture and Message Brokers](#event-driven)                                   |
+| 44   | [Kafka Fundamentals: Producers, Consumers, Brokers, Partitions, Topics](#kafka-fundamentals)      |
+| 45   | [Kafka Delivery Semantics and Stream Processing](#kafka-delivery)                                |
+| 46   | [Kafka Schema Registry, Avro, and Spring Integration](#kafka-schema-avro)                         |
+| 47   | [Circuit Breakers, Retries, and Rate Limiting (Resilience4j)](#resilience4j)                      |
+| 48   | [Spring Cloud Config and Centralized Logging](#spring-cloud-config)                              |
+|      | **CI/CD & Docker**                                                                                   |
+| 49   | [CI/CD Pipelines: Jenkins, GitHub Actions, GitLab CI](#ci-cd-pipelines)                           |
+| 50   | [Docker Fundamentals: Images, Containers, Dockerfile](#docker-fundamentals)                        |
+| 51   | [Docker Compose and Multi-Container Apps](#docker-compose)                                        |
+| 52   | [Deployment Strategies: Blue/Green, Rolling, Canary](#deployment-strategies)                      |
+| 53   | [Artifact Versioning and Environment Promotion](#artifact-versioning)                             |
+|      | **Testing & Quality Assurance**                                                                      |
+| 54   | [Unit Testing with JUnit and Mockito](#unit-testing)                                              |
+| 55   | [Integration Testing with Spring Boot](#integration-testing)                                     |
+| 56   | [Test Slicing and Testcontainers](#test-slicing)                                                 |
+| 57   | [Contract Testing and CI Testing Strategies](#contract-testing)                                   |
+| 58   | [Static Analysis: SonarQube, JaCoCo, SpotBugs](#static-analysis)                                  |
+|      | **Architecture & System Design**                                                                     |
+| 59   | [Scalability, Availability, Fault Tolerance](#scalability-availability)                           |
+| 60   | [CAP Theorem and Consistency Models](#cap-theorem)                                               |
+| 61   | [Caching: In-Memory, Redis, Caffeine](#caching)                                                 |
+| 62   | [Redis: Data Types, TTL, Pub/Sub, Locks, Rate Limiting](#redis)                                  |
+| 63   | [Design Patterns: CQRS, Saga, Event Sourcing](#design-patterns)                                  |
+| 64   | [Load Balancing, Partitioning, Replication](#load-balancing)                                    |
+| 65   | [API Security and Token Management](#api-security)                                              |
+|      | **Clean Code & Design Patterns**                                                                     |
+| 66   | [Clean Code Principles and Refactoring Techniques](#clean-code)                                 |
+| 67   | [Creational Patterns: Singleton, Factory, Builder, Prototype](#creational-patterns)              |
+| 68   | [Structural Patterns: Adapter, Decorator, Proxy, Facade](#structural-patterns)                   |
+| 69   | [Behavioral Patterns: Strategy, Observer, Chain of Responsibility](#behavioral-patterns)         |
+| 70   | [Clean Architecture, Hexagonal, Onion](#clean-architecture)                                     |
+|      | **Agile & Scrum**                                                                                     |
+| 71   | [Agile Manifesto and Scrum Roles](#agile-manifesto)                                             |
+| 72   | [Scrum Ceremonies and User Stories](#scrum-ceremonies)                                         |
+| 73   | [Story Points, Velocity, and Metrics](#story-points)                                           |
+| 74   | [Agile Tools: Jira, Trello, ClickUp](#agile-tools)                                           |
 
 </details>
 
-## **Java Core (Java 8+)**   
+## **Java Core (Java 8+)**
 
 <a name="java-features"></a>  
-### 1. **Java 8+ Features: Lambda, Streams, Optional, Records, Sealed Classes**  
+### 1. **Java 8–17 Features: Lambda, Streams, Optional, Records, Sealed Classes**  
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -109,12 +109,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-<a name="stream-api-collector-operations"></a>  
+<a name="stream-api"></a>  
 ### 3. **Stream API and Collector Operations**  
 
 **[⬆ Back to Top](#table-of-contents)**
 
-<a name="collections-concurrency"></a>  
+<a name="collections-framework"></a>  
 ### 4. **Collections Framework and Concurrency Utilities**  
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -134,7 +134,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-<a name="immutability-performance-tuning"></a>  
+<a name="immutability-performance"></a>  
 ### 8. **Immutability and Performance Tuning**  
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -157,14 +157,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-<a name="ddd-entities-value-objects-aggregates"></a>  
+<a name="ddd"></a>  
 ### 12. **Domain-Driven Design (DDD): Entities, Value Objects, Aggregates**  
 
 **[⬆ Back to Top](#table-of-contents)**
 
 
 ## **Spring JPA (Hibernate)**  
-<a name="jpa-entity-mapping"></a>  
+
 <a name="jpa-entity-mapping"></a>  
 ### 13. **JPA Entity Mapping, Lifecycle, and Annotations**  
 
@@ -230,6 +230,7 @@
 
 
 ## **Spring Boot**  
+
 <a name="spring-boot-auto-configuration"></a>  
 ### 25. **Auto-configuration and Conditional Beans**  
 
@@ -252,6 +253,8 @@
 
 <a name="embedded-servers-deployment"></a>  
 ### 29. **Embedded Tomcat/Jetty/Undertow and Deployment Packaging**  
+
+**[⬆ Back to Top](#table-of-contents)**
 
 
 ## **SQL Database**  
@@ -412,7 +415,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
 ## **Software Architecture**  
 
 <a name="scalability-availability-fault-tolerance"></a>  
@@ -499,3 +501,4 @@
 ### 74. **Agile Tools: Jira, Trello, ClickUp**  
 
 **[⬆ Back to Top](#table-of-contents)**
+
